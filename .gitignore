@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django specific files
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media files
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# VSCode specific
+.vscode/
+*.code-workspace
+
+# PyCharm specific
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Docker files
+*.pid
+*.log
+build/
+*.env.dev
+*.env.production
+
+# Node Modules (if using JavaScript libraries)
+node_modules/
+
+# Test and Coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.egg-info/
+*.eggs/
+
+# Pipfile
+Pipfile
+Pipfile.lock
